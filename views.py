@@ -1,4 +1,4 @@
-from andrewgardner.blog.models import Gallery
+from models import Gallery
 from django.utils import simplejson
 from django.http import Http404, HttpResponse
 
