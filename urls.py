@@ -3,6 +3,6 @@ import views
 
 #gallery urls
 
-urlpatterns = patterns('andrewgardner.gallery.views',
+urlpatterns = patterns('gallery.views',
 	(r'^get_image/$', 'get_image'),
 )
